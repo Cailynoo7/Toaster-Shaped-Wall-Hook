@@ -1,0 +1,614 @@
+{
+  "requirements": {
+    "product_class": {
+      "value": "mechanical",
+      "source": "default"
+    },
+    "appearance": {
+      "value": "严格按用户图片复刻卡通吐司机、金色底座及旋钮、三按钮、吐司表情",
+      "source": "user"
+    },
+    "motion": {
+      "value": "空载吐司缩入机身；挂物通过内部杠杆顶起吐司；取下后复位",
+      "source": "user"
+    },
+    "versioning": {
+      "value": "初版命名v1，后续每次用户修改递增v2、v3并同步文档和交付模型",
+      "source": "user"
+    },
+    "body_size_mm": {
+      "value": {
+        "width": 80.1346,
+        "depth": 41.25,
+        "height": 57.5
+      },
+      "source": "default"
+    },
+    "toast_travel_mm": {
+      "value": 21.25,
+      "source": "default"
+    },
+    "mechanism": {
+      "value": "双臂摇杆+横向销槽+竖直导轨，吐司自重复位",
+      "source": "default"
+    },
+    "manufacturing": {
+      "value": "PETG主体和挂钩、PLA双色吐司及装饰；FDM原型",
+      "source": "default"
+    },
+    "mounting": {
+      "value": "平背粘接墙面；选用适配墙面的承重胶，初版不包含壁面承载验证",
+      "source": "default"
+    },
+    "load_target_g": {
+      "value": 500,
+      "source": "default"
+    },
+    "verification": {
+      "value": "外观和两端状态几何检查；摩擦、启动力、疲劳及承重须实物验证",
+      "source": "default"
+    },
+    "base_board": {
+      "value": "无电子板，无需电源，纯机械",
+      "source": "default"
+    },
+    "sliding_clearance_mm": {
+      "value": {
+        "guide_per_side": 0.3125,
+        "hook_base_per_side": 0.1875,
+        "follower_back": 0.3125
+      },
+      "source": "default"
+    },
+    "toast_size_mm": {
+      "value": [
+        50.0,
+        8.75,
+        48.125
+      ],
+      "source": "default"
+    },
+    "current_version": {
+      "value": "v42",
+      "source": "default"
+    },
+    "refinement": {
+      "value": "根据用户参考图精细调整外形",
+      "source": "user"
+    },
+    "appearance_details": {
+      "value": {
+        "top_roll_radius_mm": 10.0,
+        "toast_shoulder_mm": 29.375,
+        "dial_grip_width_mm": 2.2,
+        "eyes_z_loaded_mm": 70.625
+      },
+      "source": "default"
+    },
+    "bread_top_shape": {
+      "value": "面包顶部更圆润",
+      "source": "user"
+    },
+    "bread_eyebrows": {
+      "value": false,
+      "source": "user"
+    },
+    "bread_eye_shape": {
+      "value": "眼睛更圆",
+      "source": "user"
+    },
+    "bread_rounding_dimensions": {
+      "value": {
+        "eye_radius_mm": 2.1875,
+        "face_border_mm": 1.25,
+        "crust_border_mm": 1.25,
+        "core_crust_clearance_mm": 0.09375,
+        "core_depth_mm": 8.75,
+        "reference_crown_rise_mm": 12.3125,
+        "reference_neck_ratio": 0.91,
+        "surface_groove_depth_mm": 0.34375,
+        "surface_groove_halfwidth_mm": 1.125,
+        "crown_soft_fullness_mm": 0.375,
+        "surface_groove_through": true,
+        "surface_groove_round_mm": 0.625,
+        "vertical_side_bulge_mm": 0.625,
+        "crust_edge_round_mm": 0.5,
+        "side_curvature_bias": 0.8
+      },
+      "source": "default"
+    },
+    "bread_top_height": {
+      "value": "面包顶部在高度方向更厚一点",
+      "source": "user"
+    },
+    "bread_top_center": {
+      "value": "延续连续曲线浅凹方式，曲线凹槽加深一点、左右聚合一点",
+      "source": "user"
+    },
+    "bread_face_alignment": {
+      "value": "面包前脸与主体轮廓对齐",
+      "source": "user"
+    },
+    "bread_composition": {
+      "value": "米色主体，四周侧边包裹一圈烘焙形成的面包皮，凹槽位于面包皮顶部中间",
+      "source": "user"
+    },
+    "bread_crown_side_shape": {
+      "value": "保留已认可轮廓，整体曲率再小一点点，让整体更饱满",
+      "source": "user"
+    },
+    "bread_top_groove_refinement": {
+      "value": "中央贯穿凹槽圆角继续加大",
+      "source": "user"
+    },
+    "bread_vertical_side_shape": {
+      "value": "先调整右侧再镜像对齐左侧；竖直区域从顶端到底部圆角之前曲率小幅大—小—大变化，保证平滑，外宽不超过既有宽度",
+      "source": "user"
+    },
+    "slot_trim_shape": {
+      "value": "金属色槽沿平面内边带厚度为原来的两倍，高度恢复原值",
+      "source": "user"
+    },
+    "slot_trim_dimensions": {
+      "value": {
+        "outer_width_mm": 57.5,
+        "outer_depth_mm": 16.25,
+        "opening_width_mm": 53.75,
+        "opening_depth_mm": 12.5,
+        "band_width_mm": 1.875,
+        "height_mm": 0.75,
+        "edge_round_mm": 0.1875
+      },
+      "source": "default"
+    },
+    "bread_groove_round_mm": {
+      "value": 0.625,
+      "source": "user"
+    },
+    "bread_vertical_side_bulge_mm": {
+      "value": 0.625,
+      "source": "user"
+    },
+    "bread_side_width_limit_mm": {
+      "value": 50.0,
+      "source": "user"
+    },
+    "body_shape": {
+      "value": "面包前后居中，正面略梯形、下宽上窄，侧面矩形并延续圆角；机关、面包与装配坐标同比缩小，保持相对位置和形态",
+      "source": "user"
+    },
+    "body_shape_dimensions": {
+      "value": {
+        "forward_extension_mm": 5.0,
+        "top_nominal_width_mm": 75.0,
+        "bottom_width_mm": 80.0,
+        "depth_mm": 41.25,
+        "front_y_mm": -23.125,
+        "rear_y_mm": 18.125,
+        "bread_center_y_mm": -2.5
+      },
+      "source": "default"
+    },
+    "hook_access": {
+      "value": "挂钩下方杆子加长，避免空载时挂物空间过小，方便挂物",
+      "source": "user"
+    },
+    "hook_length_dimensions": {
+      "value": {
+        "length_parameter_mm": 54.375,
+        "extension_mm": 10.0,
+        "idle_tip_to_base_nominal_mm": 12.5,
+        "loaded_tip_to_base_nominal_mm": 33.75
+      },
+      "source": "default"
+    },
+    "uniform_resize": {
+      "value": "盒子本体横向长度缩到8cm，其余几何尺寸、配合间隙和行程均同比缩小",
+      "source": "user"
+    },
+    "uniform_scale": {
+      "value": 0.625,
+      "source": "default"
+    },
+    "back_seam": {
+      "value": "先建立完整背部外形，再从同一外形切出背板，使接缝、外轮廓和圆角一致",
+      "source": "user"
+    },
+    "back_seam_dimensions": {
+      "value": {
+        "split_center_y_mm": 16.25,
+        "gap_mm": 0.1875,
+        "shell_end_y_mm": 16.15625,
+        "back_front_y_mm": 16.34375
+      },
+      "source": "default"
+    },
+    "back_retention": {
+      "value": "背板与机身通过卡紧结构连接",
+      "source": "user"
+    },
+    "base_retention": {
+      "value": "底板与机身通过卡紧结构连接",
+      "source": "user"
+    },
+    "panel_shift_up_mm": {
+      "value": 4,
+      "source": "user"
+    },
+    "base_plate_thickness_mm": {
+      "value": 1.875,
+      "source": "default"
+    },
+    "snap_dimensions": {
+      "value": {
+        "back_clip_count": 4,
+        "base_clip_count": 2,
+        "beam_thickness_mm": 1.2,
+        "back_beam_length_mm": 8.2,
+        "base_beam_length_mm": 9.6,
+        "clip_width_mm": 5,
+        "retention_engagement_mm": 0.4,
+        "axial_play_mm": 0.2,
+        "base_release_slots_mm": [
+          3,
+          1.2
+        ]
+      },
+      "source": "default"
+    },
+    "front_dial_function": {
+      "value": "前旋钮能够旋转，仅作可转装饰，不需要实际控制作用",
+      "source": "user"
+    },
+    "front_dial_grip_shape": {
+      "value": "手柄宽度减少、厚度增加；与圆盘接触的位置不要圆角",
+      "source": "user"
+    },
+    "front_dial_scale_layout": {
+      "value": "周圈6个大刻度及小刻度，1至6档数字从左下角顺时针等距排到右下角",
+      "source": "user"
+    },
+    "front_dial_dimensions": {
+      "value": {
+        "grip_width_mm": 2.2,
+        "grip_depth_mm": 2.2666666666666666,
+        "grip_height_mm": 10,
+        "axle_diameter_mm": 3,
+        "axle_bore_mm": 3.4,
+        "cap_diameter_mm": 6,
+        "cap_thickness_mm": 1.6,
+        "scale_start_deg": 225,
+        "scale_sweep_deg": 270,
+        "major_count": 6,
+        "major_step_deg": 54,
+        "minor_per_interval": 4,
+        "major_tick_size_mm": [
+          0.6,
+          1
+        ],
+        "minor_tick_size_mm": [
+          0.5,
+          0.65
+        ],
+        "number_font_size_mm": 2.4,
+        "engrave_depth_mm": 0.65,
+        "grip_side_round_mm": 0.45
+      },
+      "source": "default"
+    },
+    "scale_inlays": {
+      "value": "刻度槽位配对应凸起嵌件，打印后可以直接塞入",
+      "source": "user"
+    },
+    "dial_grip_depth_reduction": {
+      "value": "手柄厚度减少三分之一",
+      "source": "user"
+    },
+    "inlay_dimensions": {
+      "value": {
+        "major_count": 6,
+        "minor_count": 20,
+        "number_count": 6,
+        "thickness_mm": 0.8,
+        "socket_depth_mm": 0.65,
+        "front_protrusion_mm": 0.25,
+        "socket_edge_clearance_mm": 0.08,
+        "floor_clearance_mm": 0.1,
+        "tick_lock_band_offset_mm": 0.1,
+        "tick_lock_pocket_offset_mm": 0.12,
+        "tick_lock_undercut_mm": 0.02,
+        "number_retention": "数字嵌件为导入间隙配合，必要时微量胶固定"
+      },
+      "source": "default"
+    },
+    "dial_grip_side_round": {
+      "value": "旋钮手柄侧面增加圆角",
+      "source": "user"
+    },
+    "button_rounding_multiplier": {
+      "value": 3,
+      "source": "user"
+    },
+    "button_upper_labels": {
+      "value": [
+        "REHEAT",
+        "CANCEL",
+        "DEFROST"
+      ],
+      "source": "user"
+    },
+    "panel_rim_present": {
+      "value": false,
+      "source": "user"
+    },
+    "button_label_dimensions": {
+      "value": {
+        "font_size_mm": 1.8,
+        "engrave_depth_mm": 0.65,
+        "center_z_mm": 24.4,
+        "outline_round_mm": 2.34375,
+        "depth_edge_round_mm": 1.171875,
+        "back_edge_round_mm": 0
+      },
+      "source": "default"
+    },
+    "button_side_rounding_multiplier": {
+      "value": 1.5,
+      "source": "user"
+    },
+    "button_back_edge_round": {
+      "value": false,
+      "source": "user"
+    },
+    "button_mounting": {
+      "value": "三个按钮装进对应浅槽，机身挖出相应槽位",
+      "source": "user"
+    },
+    "button_socket_dimensions": {
+      "value": {
+        "head_seat_depth_mm": 0.35,
+        "key_width_mm": 4.8,
+        "key_height_mm": 5.1125,
+        "key_length_mm": 1.25,
+        "key_corner_mm": 1.4,
+        "edge_clearance_mm": 0.1,
+        "shell_recess_depth_mm": 0.575,
+        "key_bottom_clearance_mm": 0.1,
+        "button_y_mm": -24.8375
+      },
+      "source": "default"
+    },
+    "base_external_height_increase_up_mm": {
+      "value": 4,
+      "source": "default"
+    },
+    "base_internal_shape": {
+      "value": "底板内部整体内凹，底面与周边壁厚和机身一致，取消后方两个独立避空凹坑",
+      "source": "user"
+    },
+    "base_assembly_simplification": {
+      "value": "底盘装配简化并保持牢固",
+      "source": "user"
+    },
+    "base_tray_dimensions": {
+      "value": {
+        "outer_height_mm": 8.375,
+        "floor_wall_mm": 1.875,
+        "perimeter_wall_mm": 1.875,
+        "recess_depth_mm": 6.5,
+        "rear_tongue_count": 2,
+        "front_snap_count": 2,
+        "rear_tongue_thickness_mm": 1.2,
+        "rear_axial_clearance_mm": 0.2,
+        "front_snap_tip_z_mm": 11.275,
+        "rear_tongue_top_z_mm": 10.2,
+        "rear_stop_wall_clearance_mm": 0.2
+      },
+      "source": "default"
+    },
+    "base_assembly_method": {
+      "value": "后侧两只刚性插舌先插入背板承口，前侧两只弹性卡扣按下锁紧；底面内收小孔经斜通道供薄片解扣",
+      "source": "default"
+    },
+    "button_label_inlays": {
+      "value": "三个按钮上方的英文配对应凸起嵌件，打印后可塞入",
+      "source": "user"
+    },
+    "base_upper_outer_edge_round": {
+      "value": false,
+      "source": "user"
+    },
+    "side_dial_contact_edge_round": {
+      "value": false,
+      "source": "user"
+    },
+    "side_dial_socket": {
+      "value": "机身为侧面圆钮挖出对应浅槽",
+      "source": "user"
+    },
+    "foot_top_edge_round": {
+      "value": false,
+      "source": "user"
+    },
+    "foot_symmetry": {
+      "value": "四个金色机脚以底盘中心左右前后对称",
+      "source": "user"
+    },
+    "foot_sockets": {
+      "value": "底盘为四个机脚挖出对应浅凹槽",
+      "source": "user"
+    },
+    "button_label_inlay_dimensions": {
+      "value": {
+        "glyph_count": 19,
+        "labels": [
+          "REHEAT",
+          "CANCEL",
+          "DEFROST"
+        ],
+        "font_size_mm": 1.8,
+        "thickness_mm": 0.8,
+        "socket_depth_mm": 0.65,
+        "edge_clearance_mm": 0.06,
+        "floor_clearance_mm": 0.1,
+        "front_protrusion_mm": 0.25
+      },
+      "source": "default"
+    },
+    "foot_socket_dimensions": {
+      "value": {
+        "radius_mm": 3.4375,
+        "height_mm": 2.5,
+        "socket_radius_mm": 3.5375,
+        "socket_depth_mm": 0.5,
+        "inset_mm": 0.4,
+        "floor_clearance_mm": 0.1,
+        "centers_x_mm": [
+          -26.875,
+          26.875
+        ],
+        "centers_y_mm": [
+          -16.5,
+          11.5
+        ],
+        "center_z_mm": -0.85,
+        "symmetry_center_y_mm": -2.5
+      },
+      "source": "default"
+    },
+    "side_dial_socket_dimensions": {
+      "value": {
+        "radius_mm": 4.375,
+        "depth_mm": 2.5,
+        "socket_radius_mm": 4.475,
+        "socket_depth_mm": 0.5,
+        "inset_mm": 0.4,
+        "floor_clearance_mm": 0.1,
+        "angle_y_deg": -2.6942842898561006
+      },
+      "source": "default"
+    },
+    "base_bottom_round_multiplier": {
+      "value": 3,
+      "source": "user"
+    },
+    "base_side_slope": {
+      "value": "底盘左右侧壁与机身斜面保持相同斜率",
+      "source": "user"
+    },
+    "base_taper_dimensions": {
+      "value": {
+        "bottom_edge_round_mm": 2.8125,
+        "side_angle_deg": 2.6942842898561006,
+        "per_side_width_change_per_height": 0.047058823529411764,
+        "join_top_z_mm": 8.375,
+        "join_width_mm": 79.62352941176471,
+        "actual_max_width_mm": 80.1346,
+        "nominal_width_mm": 80
+      },
+      "source": "default"
+    },
+    "hook_edge_round_multiplier": {
+      "value": 2,
+      "source": "user"
+    },
+    "hook_rounding_scope": {
+      "value": "挂钩整个外露钩体倒圆",
+      "source": "user"
+    },
+    "hook_edge_round_mm": {
+      "value": 1.5,
+      "source": "default"
+    },
+    "base_surface_smoothness": {
+      "value": "修复底盘表面粗糙、不平整的感觉",
+      "source": "user"
+    },
+    "base_surface_geometry": {
+      "value": {
+        "side_corner_method": "梯形截面拉伸后以解析圆柱圆角连接侧面",
+        "inner_floor_round_mm": 0.4,
+        "release_entry_y_mm": -19.5,
+        "release_tip_y_mm": -21.1,
+        "release_slot_mm": [
+          3,
+          1.2
+        ],
+        "release_method": "底面内收入口经斜通道连接前卡扣，薄片按斜向送入后向内压卡舌"
+      },
+      "source": "default"
+    },
+    "upper_stop_reinforcement": {
+      "value": "防止杠杆上翘过头的限位方块加宽，与两侧定位长柱的外沿对齐",
+      "source": "user"
+    },
+    "upper_stop_dimensions": {
+      "value": {
+        "shoulder_count": 4,
+        "old_width_mm": 1.875,
+        "width_mm": 4.0625,
+        "height_mm": 3.75,
+        "depth_mm": 4.5625,
+        "bottom_z_mm": 36.25,
+        "top_z_mm": 40,
+        "channel_opening_mm": 7.5,
+        "aligned_outer_span_mm": 15.625,
+        "pillar_overlap_width_mm": 1.875
+      },
+      "source": "default"
+    },
+    "side_handle_motion": {
+      "value": "侧面拨柄跟随挂钩同步上下移动",
+      "source": "user"
+    },
+    "side_handle_link_dimensions": {
+      "value": {
+        "travel_mm": 21.25,
+        "motion_direction": "与挂钩同向、与吐司反向",
+        "implementation": "挂钩一体连接臂及插接胶固侧柄",
+        "handle_center_x_mm": 42.8,
+        "handle_center_y_mm": -2.5,
+        "loaded_center_z_mm": 25,
+        "idle_center_z_mm": 46.25,
+        "hook_relative_z_mm": 13.75,
+        "shell_slot_height_mm": 26.75,
+        "shell_slot_width_mm": 2.375,
+        "shell_slot_center_z_mm": 35.625,
+        "key_dimensions_mm": [
+          5.75,
+          2,
+          1.875
+        ],
+        "key_edge_clearance_mm": 0.1,
+        "key_floor_clearance_mm": 0.1,
+        "slot_side_clearance_mm": 0.1875
+      },
+      "source": "default"
+    },
+    "slot_trim_thickness_multiplier": {
+      "value": 2,
+      "source": "user"
+    },
+    "back_base_gap_repair": {
+      "value": "修复背板与底座之间的局部缝隙，保留内部避让间隙",
+      "source": "user"
+    },
+    "back_base_joint_dimensions": {
+      "value": {
+        "exterior_lower_z_mm": 8.375,
+        "base_upper_z_mm": 8.375,
+        "exterior_vertical_gap_mm": 0,
+        "internal_rear_wall_clearance_mm": 0.2,
+        "internal_low_stop_rear_y_mm": 16.05,
+        "base_inner_rear_y_mm": 16.25,
+        "internal_cut_top_z_mm": 8.575
+      },
+      "source": "default"
+    },
+    "slot_trim_thickness_axis": {
+      "value": "增加平面内的边带厚度，不增加槽沿高度",
+      "source": "user"
+    }
+  },
+  "open_questions": []
+}

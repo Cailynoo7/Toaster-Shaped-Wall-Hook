@@ -1,0 +1,11 @@
+r=param("smile_radius",3.8)
+t=param("smile_stroke",0.8)
+d=param("smile_depth",0.5)
+with BuildSketch(Plane.XZ) as sk:
+    Circle(r)
+    Circle(r-t,mode=Mode.SUBTRACT)
+s=extrude(sk.sketch,amount=d)
+s=s & Pos(0,-d/2,-r/2)*Box(2*r+2,d+2,r)
+s.color=srgb("#45382c")
+s=scale(s,by=param("smile_uniform_scale",0.625))
+publish("smile",s,"v24 吐司微笑",material="pla")

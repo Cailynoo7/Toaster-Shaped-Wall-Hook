@@ -1,0 +1,507 @@
+{
+  "version": "v42",
+  "units": "mm",
+  "body": [
+    80.1346,
+    41.25,
+    57.5
+  ],
+  "wall": 1.875,
+  "toast_travel": 21.25,
+  "shaft": 3.75,
+  "shaft_bore": 4.0,
+  "connections": [
+    {
+      "id": "rocker_pivot",
+      "implementation": "free",
+      "reason": "一体打印轴与间隙旋转孔"
+    },
+    {
+      "id": "input_slot",
+      "implementation": "free",
+      "reason": "一体摇杆圆销与挂钩滑块横槽"
+    },
+    {
+      "id": "output_slot",
+      "implementation": "free",
+      "reason": "一体摇杆圆销与吐司滑块横槽"
+    },
+    {
+      "id": "guides",
+      "implementation": "free",
+      "reason": "背板导轨与双滑块间隙配合"
+    },
+    {
+      "id": "shell_back",
+      "implementation": "free",
+      "reason": "原舌边定位，背板左右各两处PETG悬臂卡扣与机身内侧扣槽锁止"
+    },
+    {
+      "id": "base_shell",
+      "implementation": "free",
+      "reason": "底座后插舌与前双扣锁止；前侧底面内收3×1.2mm入口经斜通道对准卡舌，薄片进入后向内压舌拆卸，不再切开外侧底圆角"
+    },
+    {
+      "id": "wall_back",
+      "implementation": "free",
+      "reason": "承重胶粘"
+    },
+    {
+      "id": "collar_retention",
+      "implementation": "free",
+      "reason": "胶固间隙轴帽，防摇杆轴向脱落"
+    },
+    {
+      "id": "decor_bonding",
+      "implementation": "free",
+      "reason": "面板、衬圈、旋钮、三按钮、槽沿、吐司面、表情、脚及侧圆钮胶接；侧拨柄胶固于挂钩连接臂，勿胶到机身"
+    },
+    {
+      "id": "bread_core_crust",
+      "implementation": "free",
+      "reason": "米色主体与面包皮的基准极值装配间隙同比缩至0.09375mm，胶接固定，试打验证"
+    },
+    {
+      "id": "decorative_dial_rotation",
+      "implementation": "free",
+      "reason": "一体打印PLA转轴与3.4mm滑动孔，PETG盲孔帽胶固止退；不连接内部摇杆"
+    },
+    {
+      "id": "scale_inlay_fit",
+      "implementation": "free",
+      "reason": "26刻度嵌件插入阶梯槽，0.02mm每边微量倒扣；数字6件导入间隙配合，可微量胶固定"
+    },
+    {
+      "id": "button_socket_fit",
+      "implementation": "free",
+      "reason": "按钮平肩嵌入面板浅座0.35mm，背部圆角矩形定位榫穿面板进入机身0.575mm浅槽，每边间隙0.1mm，必要时微量胶固定"
+    },
+    {
+      "id": "button_label_inlays",
+      "implementation": "free",
+      "reason": "19个独立字母对应字形浅槽，底隙0.1mm、每边0.06mm，必要时微量胶固定"
+    },
+    {
+      "id": "foot_socket_fit",
+      "implementation": "free",
+      "reason": "四个平顶脚嵌入底盘浅槽0.4mm，每边0.1mm，底隙0.1mm；胶接固定"
+    },
+    {
+      "id": "side_dial_socket_fit",
+      "implementation": "free",
+      "reason": "侧钮平背嵌入机身圆浅槽0.4mm，每边0.1mm、底隙0.1mm；胶接固定"
+    },
+    {
+      "id": "side_handle_hook_link",
+      "implementation": "free",
+      "reason": "挂钩一体PETG连接臂，侧柄5.75×2×1.875mm榫从侧槽插入盲孔，每边及底部0.1mm间隙，胶固后共同上下运动；机身侧槽每边0.1875mm滑动间隙"
+    }
+  ],
+  "clearances": {
+    "guide_per_side": 0.3125,
+    "hook_base_per_side": 0.1875,
+    "follower_back": 0.3125
+  },
+  "toast_size": [
+    50.0,
+    8.75,
+    48.125
+  ],
+  "motion": {
+    "pivot": [
+      0.0,
+      10.0,
+      21.875
+    ],
+    "arm_length": 18.75,
+    "travel": 21.25,
+    "idle": {
+      "angle_deg": -34.51810784,
+      "toast_base_z": 22.5,
+      "hook_follower_z": 32.5,
+      "dial_grip_angle_deg": 0,
+      "side_handle_center_z_mm": 46.25
+    },
+    "mid": {
+      "angle_deg": 0,
+      "toast_base_z": 33.125,
+      "hook_follower_z": 21.875,
+      "side_handle_center_z_mm": 35.625
+    },
+    "loaded": {
+      "angle_deg": 34.51810784,
+      "toast_base_z": 43.75,
+      "hook_follower_z": 11.25,
+      "dial_grip_angle_deg": 35,
+      "side_handle_center_z_mm": 25
+    },
+    "pose_instructions": "面包件、表情和输出滑块同步移动；toast/crumb的y=-2.5，表情y=-6.875；挂钩反向移动21.25mm，角度不变。源代码基准几何经每件uniform_scale=0.625后发布，装配位置已同比缩小。STEP为静态分件装配。 侧面拨柄与挂钩同步移动，侧柄中心z=挂钩滑块中心z+13.75mm，x42.8、y-2.5固定。",
+    "moving_toast_parts": [
+      "toast",
+      "crumb",
+      "eye_l",
+      "eye_r",
+      "cheek_l",
+      "cheek_r",
+      "smile"
+    ],
+    "loaded_face_z": {
+      "eyes": 70.625,
+      "cheeks": 66.875,
+      "smile": 67.5
+    },
+    "moving_hook_parts": [
+      "hook",
+      "side_handle"
+    ]
+  },
+  "appearance": {
+    "top_roll_radius_mm": 10.0,
+    "toast_shoulder_mm": 29.375,
+    "dial_grip_width_mm": 2.2,
+    "eyes_z_loaded_mm": 70.625,
+    "eye_radius_mm": 2.1875,
+    "face_border_mm": 1.25,
+    "face_profile": "米色主体与外皮共用镜像轮廓，每侧外拱0.625mm，曲率小幅大—小—大，宽50mm；贯穿凹槽圆角R0.625mm",
+    "crust_border_mm": 1.25,
+    "core_crust_clearance_mm": 0.09375,
+    "core_depth_mm": 8.75,
+    "bread_core_object": "crumb",
+    "bread_crust_object": "toast",
+    "reference_crown_rise_mm": 12.3125,
+    "reference_neck_ratio": 0.91,
+    "surface_groove_depth_mm": 0.34375,
+    "surface_groove_halfwidth_mm": 1.125,
+    "side_curve": "参考圆拱等比缩小，微量饱满度参数0.375mm，保持认可轮廓",
+    "crown_soft_fullness_mm": 0.375,
+    "surface_groove_through": true,
+    "surface_groove_round_mm": 0.625,
+    "vertical_side_bulge_mm": 0.625,
+    "crust_edge_round_mm": 0.5,
+    "rounded_rim_method": "前后外缘缩放轮廓放样，名义圆边0.5mm",
+    "slot_trim_dimensions": {
+      "outer_width_mm": 57.5,
+      "outer_depth_mm": 16.25,
+      "opening_width_mm": 53.75,
+      "opening_depth_mm": 12.5,
+      "band_width_mm": 1.875,
+      "height_mm": 0.75,
+      "edge_round_mm": 0.1875
+    },
+    "groove_round_method": "截面圆弧相切并贯穿各放样截面，等比缩小后R0.625mm",
+    "vertical_side_curve": "同一四次Bezier曲线镜像，竖直段z3.125至29.375，峰值x±22.5，端部和中部曲率同比增至1.6倍；形态不变",
+    "side_curvature_bias": 0.8,
+    "core_bridge_center_z_mm": 4.375
+  },
+  "body_shape": {
+    "front_extension_mm": 5.0,
+    "upper_nominal_width_mm": 75.0,
+    "lower_width_mm": 80.0,
+    "front_y_mm": -23.125,
+    "rear_y_mm": 18.125,
+    "bread_center_y_mm": -2.5,
+    "centering_calculation": "y_front=2*(-2.5)-18.125=-23.125; depth=41.25",
+    "section": "恒定深41.25mm，上部名义宽75、下部宽80；z4.375至57.5线性收分，侧面矩形及圆角",
+    "back_mechanism": "完整背部与壳体共用外形后切出背板，周向接缝0.1875mm；内部轴、导轨和定位保持原值"
+  },
+  "front_decor_shift_y_mm": -5.0,
+  "front_feet_y_mm": -19.375,
+  "hook_dimensions": {
+    "length_parameter_mm": 54.375,
+    "extension_mm": 10.0,
+    "idle_tip_to_base_nominal_mm": 12.5,
+    "loaded_tip_to_base_nominal_mm": 33.75,
+    "width_mm": 7.5,
+    "stem_thickness_mm": 3.125,
+    "edge_round_mm": 1.5,
+    "rounding_scope": "外露J形钩体长杆、弯曲段及钩尖的全部边；内部销槽及滑块保持"
+  },
+  "scale_factor": 0.625,
+  "back_seam": {
+    "split_center_y_mm": 16.25,
+    "gap_mm": 0.1875,
+    "shell_end_y_mm": 16.15625,
+    "back_front_y_mm": 16.34375,
+    "method": "壳体与背板采用相同完整梯形外形和顶部圆角，沿同一Y切分面各让半缝；背板内部轴、导轨、舌边及定位保持"
+  },
+  "base_plate": {
+    "bottom_z_mm": 0,
+    "outer_top_z_mm": 8.375,
+    "outer_height_mm": 8.375,
+    "floor_thickness_mm": 1.875,
+    "wall_thickness_mm": 1.875,
+    "continuous_recess_depth_mm": 6.5,
+    "rear_separate_reliefs": false,
+    "front_clip_tip_z_mm": 11.275,
+    "front_hook_shoulder_z_mm": 9.575,
+    "front_receiver_center_z_mm": 10.425,
+    "rear_tongue_centers_x_mm": [
+      -29,
+      29
+    ],
+    "rear_tongue_width_mm": 5,
+    "rear_tongue_thickness_mm": 1.2,
+    "rear_tongue_top_z_mm": 10.2,
+    "rear_receiver_bottom_z_mm": 10.4,
+    "rear_axial_clearance_mm": 0.2,
+    "rear_low_stops_max_y_mm": 16.05,
+    "release_slots_mm": [
+      3,
+      1.2
+    ],
+    "inner_floor_round_mm": 0.4,
+    "release_entry_y_mm": -19.5,
+    "release_tip_y_mm": -21.1
+  },
+  "panel_shift_up_mm": 4,
+  "panel_loaded_pose": {
+    "panel_center_z_mm": 20.875,
+    "dial_center_z_mm": 20.875,
+    "buttons_center_z_mm": 18.375
+  },
+  "snaps": {
+    "back_clip_count": 4,
+    "base_clip_count": 2,
+    "beam_thickness_mm": 1.2,
+    "back_beam_length_mm": 8.2,
+    "base_beam_length_mm": 9.6,
+    "clip_width_mm": 5,
+    "retention_engagement_mm": 0.4,
+    "axial_play_mm": 0.2,
+    "base_release_slots_mm": [
+      3,
+      1.2
+    ],
+    "back_positions_xz_mm": [
+      [
+        -32,
+        18
+      ],
+      [
+        -32,
+        36
+      ],
+      [
+        32,
+        18
+      ],
+      [
+        32,
+        36
+      ]
+    ],
+    "base_positions_x_mm": [
+      -22,
+      22
+    ],
+    "base_root_z_mm": 1.675,
+    "base_rear_rigid_tongue_count": 2
+  },
+  "front_dial": {
+    "grip_width_mm": 2.2,
+    "grip_depth_mm": 2.2666666666666666,
+    "grip_height_mm": 10,
+    "axle_diameter_mm": 3,
+    "axle_bore_mm": 3.4,
+    "cap_diameter_mm": 6,
+    "cap_thickness_mm": 1.6,
+    "scale_start_deg": 225,
+    "scale_sweep_deg": 270,
+    "major_count": 6,
+    "major_step_deg": 54,
+    "minor_per_interval": 4,
+    "major_tick_size_mm": [
+      0.6,
+      1
+    ],
+    "minor_tick_size_mm": [
+      0.5,
+      0.65
+    ],
+    "number_font_size_mm": 2.4,
+    "engrave_depth_mm": 0.65,
+    "center_mm": [
+      -18.75,
+      -26.0125,
+      20.875
+    ],
+    "cap_center_mm": [
+      -18.75,
+      -19.5,
+      20.875
+    ],
+    "shaft_length_mm": 5.7625,
+    "shaft_tip_y_mm": -19.2,
+    "mark_angles_deg": [
+      225,
+      171,
+      117,
+      63,
+      9,
+      -45
+    ],
+    "rotation_axis": "Y",
+    "assembly": "旋钮一体轴穿过衬圈、面板和壳体3.4mm孔；内侧PETG盲孔止退帽胶固到轴，不能胶住固定孔；前面留0.2mm、止退帽与底板扣座留0.3mm轴向余隙",
+    "grip_side_round_mm": 0.45
+  },
+  "scale_inlays": {
+    "major_count": 6,
+    "minor_count": 20,
+    "number_count": 6,
+    "thickness_mm": 0.8,
+    "socket_depth_mm": 0.65,
+    "front_protrusion_mm": 0.25,
+    "socket_edge_clearance_mm": 0.08,
+    "floor_clearance_mm": 0.1,
+    "tick_lock_band_offset_mm": 0.1,
+    "tick_lock_pocket_offset_mm": 0.12,
+    "tick_lock_undercut_mm": 0.02,
+    "number_retention": "数字嵌件为导入间隙配合，必要时微量胶固定",
+    "object_id": "scale_inlays",
+    "position_mm": [
+      0,
+      -23.125,
+      20.875
+    ],
+    "locking": "26刻度有薄锁边及内扩口，静态装配无材料穿透；6数字无锁边以保留面板细柱"
+  },
+  "panel_rim_present": false,
+  "button_outline_round_mm": 2.34375,
+  "button_labels": {
+    "text": [
+      "REHEAT",
+      "CANCEL",
+      "DEFROST"
+    ],
+    "centers_x_mm": [
+      0.625,
+      10.625,
+      20.625
+    ],
+    "center_z_mm": 24.4,
+    "font_size_mm": 1.8,
+    "engrave_depth_mm": 0.65
+  },
+  "button_front_edge_round_mm": 1.171875,
+  "button_back_edge_round_mm": 0,
+  "button_sockets": {
+    "head_seat_depth_mm": 0.35,
+    "key_width_mm": 4.8,
+    "key_height_mm": 5.1125,
+    "key_length_mm": 1.25,
+    "key_corner_mm": 1.4,
+    "edge_clearance_mm": 0.1,
+    "shell_recess_depth_mm": 0.575,
+    "key_bottom_clearance_mm": 0.1,
+    "button_y_mm": -24.8375,
+    "head_rear_y_mm": -23.9,
+    "key_end_y_mm": -22.65,
+    "socket_floor_y_mm": -22.55
+  },
+  "button_label_inlays": {
+    "glyph_count": 19,
+    "labels": [
+      "REHEAT",
+      "CANCEL",
+      "DEFROST"
+    ],
+    "font_size_mm": 1.8,
+    "thickness_mm": 0.8,
+    "socket_depth_mm": 0.65,
+    "edge_clearance_mm": 0.06,
+    "floor_clearance_mm": 0.1,
+    "front_protrusion_mm": 0.25
+  },
+  "foot_sockets": {
+    "radius_mm": 3.4375,
+    "height_mm": 2.5,
+    "socket_radius_mm": 3.5375,
+    "socket_depth_mm": 0.5,
+    "inset_mm": 0.4,
+    "floor_clearance_mm": 0.1,
+    "centers_x_mm": [
+      -26.875,
+      26.875
+    ],
+    "centers_y_mm": [
+      -16.5,
+      11.5
+    ],
+    "center_z_mm": -0.85,
+    "symmetry_center_y_mm": -2.5,
+    "center_y_halfspan_mm": 14
+  },
+  "side_dial_socket": {
+    "radius_mm": 4.375,
+    "depth_mm": 2.5,
+    "socket_radius_mm": 4.475,
+    "socket_depth_mm": 0.5,
+    "inset_mm": 0.4,
+    "floor_clearance_mm": 0.1,
+    "angle_y_deg": -2.6942842898561006
+  },
+  "base_upper_outer_edge_round_mm": 0,
+  "base_bottom_edge_round_mm": 2.8125,
+  "base_side_slope": {
+    "bottom_edge_round_mm": 2.8125,
+    "side_angle_deg": 2.6942842898561006,
+    "per_side_width_change_per_height": 0.047058823529411764,
+    "join_top_z_mm": 8.375,
+    "join_width_mm": 79.62352941176471,
+    "actual_max_width_mm": 80.1346,
+    "nominal_width_mm": 80
+  },
+  "base_surface_geometry": {
+    "side_corner_method": "梯形截面拉伸后以解析圆柱圆角连接侧面",
+    "inner_floor_round_mm": 0.4,
+    "release_entry_y_mm": -19.5,
+    "release_tip_y_mm": -21.1,
+    "release_slot_mm": [
+      3,
+      1.2
+    ],
+    "release_method": "底面内收入口经斜通道连接前卡扣，薄片按斜向送入后向内压卡舌"
+  },
+  "upper_stop_dimensions": {
+    "shoulder_count": 4,
+    "old_width_mm": 1.875,
+    "width_mm": 4.0625,
+    "height_mm": 3.75,
+    "depth_mm": 4.5625,
+    "bottom_z_mm": 36.25,
+    "top_z_mm": 40,
+    "channel_opening_mm": 7.5,
+    "aligned_outer_span_mm": 15.625,
+    "pillar_overlap_width_mm": 1.875
+  },
+  "side_handle_link": {
+    "travel_mm": 21.25,
+    "motion_direction": "与挂钩同向、与吐司反向",
+    "implementation": "挂钩一体连接臂及插接胶固侧柄",
+    "handle_center_x_mm": 42.8,
+    "handle_center_y_mm": -2.5,
+    "loaded_center_z_mm": 25,
+    "idle_center_z_mm": 46.25,
+    "hook_relative_z_mm": 13.75,
+    "shell_slot_height_mm": 26.75,
+    "shell_slot_width_mm": 2.375,
+    "shell_slot_center_z_mm": 35.625,
+    "key_dimensions_mm": [
+      5.75,
+      2,
+      1.875
+    ],
+    "key_edge_clearance_mm": 0.1,
+    "key_floor_clearance_mm": 0.1,
+    "slot_side_clearance_mm": 0.1875
+  },
+  "back_base_joint": {
+    "exterior_lower_z_mm": 8.375,
+    "base_upper_z_mm": 8.375,
+    "exterior_vertical_gap_mm": 0,
+    "internal_rear_wall_clearance_mm": 0.2,
+    "internal_low_stop_rear_y_mm": 16.05,
+    "base_inner_rear_y_mm": 16.25,
+    "internal_cut_top_z_mm": 8.575
+  }
+}

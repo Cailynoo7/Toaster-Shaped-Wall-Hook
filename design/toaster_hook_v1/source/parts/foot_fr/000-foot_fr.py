@@ -1,0 +1,7 @@
+r=param("foot_fr_radius",5.5)
+h=param("foot_fr_height",4)
+s=Cylinder(r,h)
+s=fillet(s.faces().sort_by(Axis.Z)[0].edges(),param("foot_fr_bottom_round",1.7))
+s.color=srgb("#e9b371")
+s=scale(s,by=param("foot_fr_uniform_scale",0.625))
+publish("foot_fr",s,"v33 平顶金色机脚",material="pla")

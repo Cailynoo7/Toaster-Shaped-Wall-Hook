@@ -1,0 +1,164 @@
+{
+  "designId": "toaster_hook_v1",
+  "revision": "d8735744031ab13899df4952f81c33fe33167766bf2919ebdc7ec3e0a5058865",
+  "schemaVersion": 2,
+  "exportId": "export-9542d210d429bba5df979dac94ff0c01",
+  "generatedAt": "2026-10-13T05:26:21.597Z",
+  "designSha256": "f0e94bd3d048d4e41a67dce00a0463c1a668e0032a1ea01984889b9972e021bc",
+  "role": "mechanical_hook",
+  "stateHash": "b94db028191f44fa816e53de5ed7f9602e6a53c559aa3903b4d14518dccb36b1",
+  "stateManifest": {
+    "schemaVersion": 3,
+    "designId": "toaster_hook_v1",
+    "role": "mechanical_hook",
+    "design": {
+      "revision": "d8735744031ab13899df4952f81c33fe33167766bf2919ebdc7ec3e0a5058865",
+      "designSha256": "8b582c775801429efb117c1908be1aae3035c07e727056bb8603ff22279c2312",
+      "manifestSha256": "346de34b5ddd08d528d9d499a44e17db37e692789cc007ed99891e467400e936",
+      "stepSha256": "ed9683aaf0d747b99a75555d84214e814c78ed54a3a236879bac3d69129a6243",
+      "pcbReleases": []
+    },
+    "brief": {
+      "path": "design/toaster_hook_v1/README.md",
+      "sha256": "6c5af5736ace68623fff59519e294e9a429fce61d2851835d8c7a238b8597d5a"
+    },
+    "requirement": {
+      "artifactContractPath": "product/contract.json",
+      "artifactContractSha256": "2dbe4b3f4d2baf6b69ae5f850b538dca74d0b836f2fa4f1bfdb00fcf6cca9e75",
+      "designRequirementSha256": "f5e477cd57d60dea5d79dd1bd473fe1b76e9a28a38b21ea06ebf1cabc66c306f",
+      "inputs": [
+        {
+          "role": "external-reference",
+          "id": "toast_outline_sampling",
+          "path": "product/references/toast-outline-v14.json",
+          "sha256": "d3e9324225b10ecc79e1c84d45f492cafb13ca46f4c9ead723561080e11a3b3a",
+          "sizeBytes": 2132
+        },
+        {
+          "role": "external-reference",
+          "id": "user_image",
+          "path": "product/references/uploads/20261011T101006349Z-1-1.png",
+          "sha256": "4f3b6033189b9c82ef35f25d69923964f95461b5db9b1fc5d6e4e3b88f9b686e",
+          "sizeBytes": 1484717
+        }
+      ]
+    },
+    "delivery": {
+      "target": "fit_check",
+      "formats": [
+        "step"
+      ]
+    },
+    "stateHash": "b94db028191f44fa816e53de5ed7f9602e6a53c559aa3903b4d14518dccb36b1"
+  },
+  "buildArtifacts": {
+    "manifestSha256": "346de34b5ddd08d528d9d499a44e17db37e692789cc007ed99891e467400e936",
+    "stepSha256": "ed9683aaf0d747b99a75555d84214e814c78ed54a3a236879bac3d69129a6243"
+  },
+  "exportAlgorithm": {
+    "version": 1,
+    "bootstrapSha256": "e2af1b0833add633b44719abaa1621ecf0dce13d9b71da057d1343cb112a1509"
+  },
+  "sourceHashes": {
+    "back/back": "48169d5d964cff1b613f6fc3e52a470618137c975f80e5e53bfeb598267e1a69",
+    "base/base": "8043c397e01fe98aba0d001bea348244de7846a47024af3d4b6c224fcc3da9db",
+    "button_1/button_1": "a5037586ad937640cb5bd16a64d9ad335480c0b9c9d479da36a13e2ecb0081db",
+    "button_2/button_2": "8ef7c82be3e26a3c958c6ac500fec1d12b4a6da2b458bfc4c59bc295ec931db8",
+    "button_3/button_3": "cc4c99381a60bf7fa957a9d5733241d89c891f23ae469df55f7aa614a77dca51",
+    "cheek_l/cheek_l": "49e47740de9971c16c28a440f2a36d428a97450f85c1a8e9f755909fbf44309f",
+    "cheek_r/cheek_r": "28c4556bdae92726227fa5a0e2e756d336729efa09ffcae610a97321092a38e1",
+    "collar/collar": "e672195479de40fac039a83edfbc1bf95e875b50b99b0a25ce7d991f35daf028",
+    "crumb/crumb": "bc8e720d58fa20bdbe567401a8138ca8ee87322404ee9cd4d6ddf31466537e66",
+    "dial_cap/dial_cap": "108269c672f0ec3b372cfd678d6226303773664031988024a8b5c3bc08acea46",
+    "dial_rim/dial_rim": "67f128b48527eb7201ba1c3cfa8e914023e54d15728bb759b7d3580fc277ad9d",
+    "dial/dial": "388fec477f7df0ab6a616ff29ed4cd89064cea1a54e1aa588264979afcc95333",
+    "eye_l/eye_l": "c6cdb87bcc1cbe82ce40c72d071b524c6d701eeed0f38df31a6ca43bc8a39027",
+    "eye_r/eye_r": "4dfefab2d6692bc6ee1b5475e9937c9f490bc9a9efce690189eb2c7a567b78a0",
+    "foot_bl/foot_bl": "1987b9e415b1bbe88c1eeace8f44a973208fce7f033f8eb38b3364c24a94deef",
+    "foot_br/foot_br": "ecf23f37e5e73fc33172bed1bc552b1df06c553a09ea003ad150d7b6fda6505e",
+    "foot_fl/foot_fl": "3ca4a84d1b16175325d7d18098a71c7ffd9cb9ee128c917a891ee055ac025d66",
+    "foot_fr/foot_fr": "b1302761a6759873f97bb6be718ec3a1493fc23a1143ff1e479d2635c9a40bc2",
+    "hook/hook": "ca5cd669b727103c0d1a7b298c6c7090ee2e550eb1320b84a41762fce233f735",
+    "label_inlays/label_inlays": "f0e79a633e8df2edf8009d75a34ac624c9de8e6df69d68639e21274cdbc799ee",
+    "lever/lever": "fb9b1d998cc8226f09908bdbae9663ee625ecb382c6db73e9eb94f68296d0ade",
+    "panel/panel": "b29a2a786725003bad645c74396a8e5bf1b0863aa4c50c2627aef52829e3d655",
+    "scale_inlays/scale_inlays": "e810f8def3733d88714f9dc0c92226006e66690310cf9ee92632011978296814",
+    "shell/shell": "4b2b644fcc251d3dcde6542c4a05c267fd7465f795f8f62369aa2f32ed13ce88",
+    "side_dial/side_dial": "547bfffe1be1af54c276413d19a08d2e7b45889b311acbaa3b8c9d602c75f333",
+    "side_handle/side_handle": "8a1e367fa896cee45846e451653a9053957c7c9e0712aca8bc6118c6d19c40c4",
+    "slot_trim/slot_trim": "1353dddc93f5306b614729297b2e6edf38f14558616a2683ddc45dd0c22283f2",
+    "smile/smile": "1add7cb064719bf1dfbd508a680ec53ba2e77b441e0381f29ca3507b45dc87d5",
+    "toast/toast": "b9c0cc590b1c2f2bca6bcba644cb48f7f726723b23fb2fbde2f8c308df3b13aa"
+  },
+  "assetHashes": {},
+  "shapeHashes": {
+    "back": "99743b8933e17f9c8c82911db39d48481a12af112d06357c755c5025322e74a8",
+    "base": "448e2e244973953f541661433d4768c5e910403fedb3e91faff545a017c9a0ec",
+    "button_1": "53c5fbe171bd5cf85795a25e14f37ce2816c3212c7cd84704603feb49c930c8f",
+    "button_2": "729811fd9107dd23b149677a44d1c45b7bbcdeb5a410578a12f43a5ce32d2ffb",
+    "button_3": "173a23f8255df541f56c923383ba742432d59dd8ff6cf1147d559ed983fdee0e",
+    "cheek_l": "80c04d3a3402f118403f0b9c9cdd2ad7c745fed093e3b34f8bf4ecb8501eb8cb",
+    "cheek_r": "ad2eb150320854fafb1d664dfa243997f909e19d1659f2fee029010199cb8e3c",
+    "collar": "97778a7a18e911e8a3e0a69c7261b22fc51532a28922968c3d66dc49d9bdf299",
+    "crumb": "8ec55d199563e464710eb0af15841b95394cfc2dd889bfc6dd197d9c9e402465",
+    "dial": "beb583f92fd68f2377b2f3d5f3548d1ec7dd0455059a49ce8cec5d2d8bb0cb5b",
+    "dial_cap": "6bfa6845a789138c6863a97db37bf7d4fb7dc6fe22e8d49020cde7249d883799",
+    "dial_rim": "253fcd5c069c96326c1e4d5028c3ad41f7023fe8797a56748253b392b05c6af2",
+    "eye_l": "781bcf5581d4121d95a9525a410452e5c7faeebc4ee40ce6afd89c252a471b74",
+    "eye_r": "4406103892a367f91fcc2112a3ea877f3f2799893793e7533c26e3d00c23e4b9",
+    "foot_bl": "733553c92eb462f78c28dcce850f83e62a5197d238f97cebf8a1619fcf316eb5",
+    "foot_br": "75e435bb1f1e6dc95bc9cce95be8b48cc2aed4314dc051aa4d8d5c58433ea25d",
+    "foot_fl": "10e1facb1c7a648b945292e74143e878c7fcf3c8ca3a9aa8b9997821f4f96ce7",
+    "foot_fr": "91791082cca4ce7c18fccb25a651db9f22589ce4e5d4813c62b28ca3c16574a9",
+    "hook": "e5ea7b282af3f33379c98ac938b79aa1f237fd337924d91b953a9c2079011835",
+    "label_inlays": "ca5c1157b19cf40e06944ec3252f0cd655ff08fe606108d2e7867a1cbbe013c7",
+    "lever": "5efb5b54a0902437e737da707592ab46d087034fa4555dea9605e39f276fe2ea",
+    "panel": "7decfc27d16e5c03781e69f5a73020178c304cf5cc40db84583f41b0a2356b86",
+    "scale_inlays": "996d4786e40ab307d70e6f8295f82a9b9b38b2f139662c20176f8149ae8c774d",
+    "shell": "433535a819209fc2545c491085ea9386993327674d73d02f2c1b89696cc0e9ac",
+    "side_dial": "b1db22593e3973727866764ae8a774a5056c390166cd85b287b66c343c6a3c1c",
+    "side_handle": "61fa715dc987cc5652cdc65356ef655ef8be6e72e53454f3cce76800a2ca65e2",
+    "slot_trim": "aae060fd00f2cf6dbe02d55b7ac76ebc15f05e4bbf67e1e31d58e2b26d705921",
+    "smile": "19c968ad29a45b662235fb903922f20ac25ec9dd000f8d962ba22ec72399a096",
+    "toast": "43a7a1d894a1c2c982a1ff7e61cb61345275be2693e2ebbf48dba28be44a414c"
+  },
+  "runtime": {
+    "manifestHash": "8af55fe2bce837629aaf94ea1b6bc148222ee49cff95679cbb6ea6f6856e66a8",
+    "pythonVersion": "3.12.13",
+    "build123dVersion": "0.10.0",
+    "ocpVersion": "7.8.1.1.post1",
+    "cadpyHash": "81911f3a8adaeb8d0c4be9c12da56f8c18df074c4680646de6b0a4fe8457a5cc"
+  },
+  "artifacts": [
+    {
+      "path": "manufacturing/toaster_hook_v1/releases/export-9542d210d429bba5df979dac94ff0c01/model.step",
+      "role": "model/step",
+      "sha256": "ed9683aaf0d747b99a75555d84214e814c78ed54a3a236879bac3d69129a6243",
+      "sizeBytes": 23669976
+    }
+  ],
+  "interference": {
+    "summary": "No interference across 406 object pairs.",
+    "counts": {
+      "objects": 29,
+      "pairs": 406,
+      "exact": 0,
+      "cached": 60,
+      "interference": 0,
+      "undeclared": 0,
+      "over_budget": 0,
+      "undetermined": 0
+    },
+    "overlaps": []
+  },
+  "authority": {
+    "version": 1,
+    "algorithm": "hmac-sha256",
+    "keyId": "ef4a1d7cbc615c9d374d2c7adb341ab6",
+    "projectId": "98089632-2748-417b-9f0b-b34826079b38",
+    "receiptPath": "manufacturing/toaster_hook_v1/releases/export-9542d210d429bba5df979dac94ff0c01/receipt.json",
+    "payloadSha256": "2c769e3ab77e87f8ee76133f07f961a983e87f95ed7ba95cf19b113501a8ac16",
+    "mac": "e038a1cd471e89a9a12dd4898b712d096d350c91b75c0dc41c13c24b7014eb81"
+  },
+  "status": "handoff"
+}

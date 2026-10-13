@@ -1,0 +1,1610 @@
+{
+  "schemaVersion": 1,
+  "units": "mm",
+  "coordinateFrame": "replicator-world-z-up",
+  "targets": [
+    {
+      "id": "shell",
+      "label": "shell",
+      "cells": [
+        {
+          "id": "shell",
+          "target": "shell",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/shell/000-shell.py",
+          "sha256": "4b2b644fcc251d3dcde6542c4a05c267fd7465f795f8f62369aa2f32ed13ce88"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "base",
+      "label": "base",
+      "cells": [
+        {
+          "id": "base",
+          "target": "base",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/base/000-base.py",
+          "sha256": "8043c397e01fe98aba0d001bea348244de7846a47024af3d4b6c224fcc3da9db"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "panel",
+      "label": "panel",
+      "cells": [
+        {
+          "id": "panel",
+          "target": "panel",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/panel/000-panel.py",
+          "sha256": "b29a2a786725003bad645c74396a8e5bf1b0863aa4c50c2627aef52829e3d655"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "toast",
+      "label": "toast",
+      "cells": [
+        {
+          "id": "toast",
+          "target": "toast",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/toast/000-toast.py",
+          "sha256": "b9c0cc590b1c2f2bca6bcba644cb48f7f726723b23fb2fbde2f8c308df3b13aa"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "crumb",
+      "label": "crumb",
+      "cells": [
+        {
+          "id": "crumb",
+          "target": "crumb",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/crumb/000-crumb.py",
+          "sha256": "bc8e720d58fa20bdbe567401a8138ca8ee87322404ee9cd4d6ddf31466537e66"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "eye_l",
+      "label": "eye_l",
+      "cells": [
+        {
+          "id": "eye_l",
+          "target": "eye_l",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/eye_l/000-eye_l.py",
+          "sha256": "c6cdb87bcc1cbe82ce40c72d071b524c6d701eeed0f38df31a6ca43bc8a39027"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "eye_r",
+      "label": "eye_r",
+      "cells": [
+        {
+          "id": "eye_r",
+          "target": "eye_r",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/eye_r/000-eye_r.py",
+          "sha256": "4dfefab2d6692bc6ee1b5475e9937c9f490bc9a9efce690189eb2c7a567b78a0"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "cheek_l",
+      "label": "cheek_l",
+      "cells": [
+        {
+          "id": "cheek_l",
+          "target": "cheek_l",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/cheek_l/000-cheek_l.py",
+          "sha256": "49e47740de9971c16c28a440f2a36d428a97450f85c1a8e9f755909fbf44309f"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "cheek_r",
+      "label": "cheek_r",
+      "cells": [
+        {
+          "id": "cheek_r",
+          "target": "cheek_r",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/cheek_r/000-cheek_r.py",
+          "sha256": "28c4556bdae92726227fa5a0e2e756d336729efa09ffcae610a97321092a38e1"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "smile",
+      "label": "smile",
+      "cells": [
+        {
+          "id": "smile",
+          "target": "smile",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/smile/000-smile.py",
+          "sha256": "1add7cb064719bf1dfbd508a680ec53ba2e77b441e0381f29ca3507b45dc87d5"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "dial",
+      "label": "dial",
+      "cells": [
+        {
+          "id": "dial",
+          "target": "dial",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/dial/000-dial.py",
+          "sha256": "388fec477f7df0ab6a616ff29ed4cd89064cea1a54e1aa588264979afcc95333"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "button_1",
+      "label": "button_1",
+      "cells": [
+        {
+          "id": "button_1",
+          "target": "button_1",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/button_1/000-button_1.py",
+          "sha256": "a5037586ad937640cb5bd16a64d9ad335480c0b9c9d479da36a13e2ecb0081db"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "button_2",
+      "label": "button_2",
+      "cells": [
+        {
+          "id": "button_2",
+          "target": "button_2",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/button_2/000-button_2.py",
+          "sha256": "8ef7c82be3e26a3c958c6ac500fec1d12b4a6da2b458bfc4c59bc295ec931db8"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "button_3",
+      "label": "button_3",
+      "cells": [
+        {
+          "id": "button_3",
+          "target": "button_3",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/button_3/000-button_3.py",
+          "sha256": "cc4c99381a60bf7fa957a9d5733241d89c891f23ae469df55f7aa614a77dca51"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "side_dial",
+      "label": "side_dial",
+      "cells": [
+        {
+          "id": "side_dial",
+          "target": "side_dial",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/side_dial/000-side_dial.py",
+          "sha256": "547bfffe1be1af54c276413d19a08d2e7b45889b311acbaa3b8c9d602c75f333"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "side_handle",
+      "label": "side_handle",
+      "cells": [
+        {
+          "id": "side_handle",
+          "target": "side_handle",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/side_handle/000-side_handle.py",
+          "sha256": "8a1e367fa896cee45846e451653a9053957c7c9e0712aca8bc6118c6d19c40c4"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "slot_trim",
+      "label": "slot_trim",
+      "cells": [
+        {
+          "id": "slot_trim",
+          "target": "slot_trim",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/slot_trim/000-slot_trim.py",
+          "sha256": "1353dddc93f5306b614729297b2e6edf38f14558616a2683ddc45dd0c22283f2"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "foot_fl",
+      "label": "foot_fl",
+      "cells": [
+        {
+          "id": "foot_fl",
+          "target": "foot_fl",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/foot_fl/000-foot_fl.py",
+          "sha256": "3ca4a84d1b16175325d7d18098a71c7ffd9cb9ee128c917a891ee055ac025d66"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "foot_fr",
+      "label": "foot_fr",
+      "cells": [
+        {
+          "id": "foot_fr",
+          "target": "foot_fr",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/foot_fr/000-foot_fr.py",
+          "sha256": "b1302761a6759873f97bb6be718ec3a1493fc23a1143ff1e479d2635c9a40bc2"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "foot_bl",
+      "label": "foot_bl",
+      "cells": [
+        {
+          "id": "foot_bl",
+          "target": "foot_bl",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/foot_bl/000-foot_bl.py",
+          "sha256": "1987b9e415b1bbe88c1eeace8f44a973208fce7f033f8eb38b3364c24a94deef"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "foot_br",
+      "label": "foot_br",
+      "cells": [
+        {
+          "id": "foot_br",
+          "target": "foot_br",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/foot_br/000-foot_br.py",
+          "sha256": "ecf23f37e5e73fc33172bed1bc552b1df06c553a09ea003ad150d7b6fda6505e"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "back",
+      "label": "back",
+      "cells": [
+        {
+          "id": "back",
+          "target": "back",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/back/000-back.py",
+          "sha256": "48169d5d964cff1b613f6fc3e52a470618137c975f80e5e53bfeb598267e1a69"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "lever",
+      "label": "lever",
+      "cells": [
+        {
+          "id": "lever",
+          "target": "lever",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/lever/000-lever.py",
+          "sha256": "fb9b1d998cc8226f09908bdbae9663ee625ecb382c6db73e9eb94f68296d0ade"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "hook",
+      "label": "hook",
+      "cells": [
+        {
+          "id": "hook",
+          "target": "hook",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/hook/000-hook.py",
+          "sha256": "ca5cd669b727103c0d1a7b298c6c7090ee2e550eb1320b84a41762fce233f735"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "collar",
+      "label": "collar",
+      "cells": [
+        {
+          "id": "collar",
+          "target": "collar",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/collar/000-collar.py",
+          "sha256": "e672195479de40fac039a83edfbc1bf95e875b50b99b0a25ce7d991f35daf028"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "dial_rim",
+      "label": "dial_rim",
+      "cells": [
+        {
+          "id": "dial_rim",
+          "target": "dial_rim",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/dial_rim/000-dial_rim.py",
+          "sha256": "67f128b48527eb7201ba1c3cfa8e914023e54d15728bb759b7d3580fc277ad9d"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "dial_cap",
+      "label": "dial_cap",
+      "cells": [
+        {
+          "id": "dial_cap",
+          "target": "dial_cap",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/dial_cap/000-dial_cap.py",
+          "sha256": "108269c672f0ec3b372cfd678d6226303773664031988024a8b5c3bc08acea46"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "scale_inlays",
+      "label": "scale_inlays",
+      "cells": [
+        {
+          "id": "scale_inlays",
+          "target": "scale_inlays",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/scale_inlays/000-scale_inlays.py",
+          "sha256": "e810f8def3733d88714f9dc0c92226006e66690310cf9ee92632011978296814"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "label_inlays",
+      "label": "label_inlays",
+      "cells": [
+        {
+          "id": "label_inlays",
+          "target": "label_inlays",
+          "order": 0,
+          "path": "design/toaster_hook_v1/source/parts/label_inlays/000-label_inlays.py",
+          "sha256": "f0e79a633e8df2edf8009d75a34ac624c9de8e6df69d68639e21274cdbc799ee"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "objects": [
+    {
+      "id": "shell",
+      "target": "shell",
+      "label": "v38 联动拨柄行程槽机身",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "433535a819209fc2545c491085ea9386993327674d73d02f2c1b89696cc0e9ac",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          30.9375
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "base",
+      "target": "base",
+      "label": "v36 光顺斜壁底座",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "448e2e244973953f541661433d4768c5e910403fedb3e91faff545a017c9a0ec",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          2.1875
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "panel",
+      "target": "panel",
+      "label": "v33 英文字母嵌件槽面板",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "7decfc27d16e5c03781e69f5a73020178c304cf5cc40db84583f41b0a2356b86",
+      "transform": {
+        "positionMm": [
+          0,
+          -23.125,
+          20.875
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "toast",
+      "target": "toast",
+      "label": "v24 周圈烘焙面包皮",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "43a7a1d894a1c2c982a1ff7e61cb61345275be2693e2ebbf48dba28be44a414c",
+      "transform": {
+        "positionMm": [
+          0,
+          -2.5,
+          43.75
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "crumb",
+      "target": "crumb",
+      "label": "v24 米色面包主体与滑块",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "8ec55d199563e464710eb0af15841b95394cfc2dd889bfc6dd197d9c9e402465",
+      "transform": {
+        "positionMm": [
+          0,
+          -2.5,
+          43.75
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "eye_l",
+      "target": "eye_l",
+      "label": "v24 吐司眼睛",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "781bcf5581d4121d95a9525a410452e5c7faeebc4ee40ce6afd89c252a471b74",
+      "transform": {
+        "positionMm": [
+          -7.5,
+          -6.875,
+          70.625
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "eye_r",
+      "target": "eye_r",
+      "label": "v24 吐司眼睛",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "4406103892a367f91fcc2112a3ea877f3f2799893793e7533c26e3d00c23e4b9",
+      "transform": {
+        "positionMm": [
+          7.5,
+          -6.875,
+          70.625
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "cheek_l",
+      "target": "cheek_l",
+      "label": "v24 吐司腮红",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "80c04d3a3402f118403f0b9c9cdd2ad7c745fed093e3b34f8bf4ecb8501eb8cb",
+      "transform": {
+        "positionMm": [
+          -11.875,
+          -6.875,
+          66.875
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "cheek_r",
+      "target": "cheek_r",
+      "label": "v24 吐司腮红",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "ad2eb150320854fafb1d664dfa243997f909e19d1659f2fee029010199cb8e3c",
+      "transform": {
+        "positionMm": [
+          11.875,
+          -6.875,
+          66.875
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "smile",
+      "target": "smile",
+      "label": "v24 吐司微笑",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "19c968ad29a45b662235fb903922f20ac25ec9dd000f8d962ba22ec72399a096",
+      "transform": {
+        "positionMm": [
+          0,
+          -6.875,
+          67.5
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "dial",
+      "target": "dial",
+      "label": "v29 侧边圆角旋钮",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "beb583f92fd68f2377b2f3d5f3548d1ec7dd0455059a49ce8cec5d2d8bb0cb5b",
+      "transform": {
+        "positionMm": [
+          -18.75,
+          -26.0125,
+          20.875
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "button_1",
+      "target": "button_1",
+      "label": "v31 面板按钮 1",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "53c5fbe171bd5cf85795a25e14f37ce2816c3212c7cd84704603feb49c930c8f",
+      "transform": {
+        "positionMm": [
+          0.625,
+          -24.8375,
+          18.375
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "button_2",
+      "target": "button_2",
+      "label": "v31 面板按钮 2",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "729811fd9107dd23b149677a44d1c45b7bbcdeb5a410578a12f43a5ce32d2ffb",
+      "transform": {
+        "positionMm": [
+          10.625,
+          -24.8375,
+          18.375
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "button_3",
+      "target": "button_3",
+      "label": "v31 金色按钮",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "173a23f8255df541f56c923383ba742432d59dd8ff6cf1147d559ed983fdee0e",
+      "transform": {
+        "positionMm": [
+          20.625,
+          -24.8375,
+          18.375
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "side_dial",
+      "target": "side_dial",
+      "label": "v33 平背侧面圆钮",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "b1db22593e3973727866764ae8a774a5056c390166cd85b287b66c343c6a3c1c",
+      "transform": {
+        "positionMm": [
+          40.43729567796752,
+          -2.5,
+          13.164955782769407
+        ],
+        "rotationDeg": [
+          0,
+          -2.6942842898561006,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "side_handle",
+      "target": "side_handle",
+      "label": "v38 上下联动侧拨柄",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "61fa715dc987cc5652cdc65356ef655ef8be6e72e53454f3cce76800a2ca65e2",
+      "transform": {
+        "positionMm": [
+          42.8,
+          -2.5,
+          25
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "slot_trim",
+      "target": "slot_trim",
+      "label": "v41 双倍边带金属色槽沿",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "aae060fd00f2cf6dbe02d55b7ac76ebc15f05e4bbf67e1e31d58e2b26d705921",
+      "transform": {
+        "positionMm": [
+          0,
+          -2.5,
+          57.5
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "foot_fl",
+      "target": "foot_fl",
+      "label": "v33 平顶金色机脚",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "10e1facb1c7a648b945292e74143e878c7fcf3c8ca3a9aa8b9997821f4f96ce7",
+      "transform": {
+        "positionMm": [
+          -26.875,
+          -16.5,
+          -0.85
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "foot_fr",
+      "target": "foot_fr",
+      "label": "v33 平顶金色机脚",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "91791082cca4ce7c18fccb25a651db9f22589ce4e5d4813c62b28ca3c16574a9",
+      "transform": {
+        "positionMm": [
+          26.875,
+          -16.5,
+          -0.85
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "foot_bl",
+      "target": "foot_bl",
+      "label": "v33 平顶金色机脚",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "733553c92eb462f78c28dcce850f83e62a5197d238f97cebf8a1619fcf316eb5",
+      "transform": {
+        "positionMm": [
+          -26.875,
+          11.5,
+          -0.85
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "foot_br",
+      "target": "foot_br",
+      "label": "v33 平顶金色机脚",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "75e435bb1f1e6dc95bc9cce95be8b48cc2aed4314dc051aa4d8d5c58433ea25d",
+      "transform": {
+        "positionMm": [
+          26.875,
+          11.5,
+          -0.85
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "back",
+      "target": "back",
+      "label": "v40 底沿贴齐背板",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "99743b8933e17f9c8c82911db39d48481a12af112d06357c755c5025322e74a8",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          30.9375
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "lever",
+      "target": "lever",
+      "label": "v24 等臂杠杆",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "5efb5b54a0902437e737da707592ab46d087034fa4555dea9605e39f276fe2ea",
+      "transform": {
+        "positionMm": [
+          0,
+          10,
+          21.875
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "hook",
+      "target": "hook",
+      "label": "v42 大圆角联动挂钩",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "e5ea7b282af3f33379c98ac938b79aa1f237fd337924d91b953a9c2079011835",
+      "transform": {
+        "positionMm": [
+          0,
+          4.0625,
+          11.25
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "collar",
+      "target": "collar",
+      "label": "v24 胶固止退轴帽",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "97778a7a18e911e8a3e0a69c7261b22fc51532a28922968c3d66dc49d9bdf299",
+      "transform": {
+        "positionMm": [
+          0,
+          7.375,
+          21.875
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "dial_rim",
+      "target": "dial_rim",
+      "label": "v27 旋钮轴孔衬圈",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "253fcd5c069c96326c1e4d5028c3ad41f7023fe8797a56748253b392b05c6af2",
+      "transform": {
+        "positionMm": [
+          -18.75,
+          -24.40625,
+          20.875
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "dial_cap",
+      "target": "dial_cap",
+      "label": "v27 旋钮内侧止退帽",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "6bfa6845a789138c6863a97db37bf7d4fb7dc6fe22e8d49020cde7249d883799",
+      "transform": {
+        "positionMm": [
+          -18.75,
+          -19.5,
+          20.875
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "scale_inlays",
+      "target": "scale_inlays",
+      "label": "v28 刻度数字嵌件组",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "996d4786e40ab307d70e6f8295f82a9b9b38b2f139662c20176f8149ae8c774d",
+      "transform": {
+        "positionMm": [
+          0,
+          -23.125,
+          20.875
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "label_inlays",
+      "target": "label_inlays",
+      "label": "v33 三组英文字母嵌件",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "ca5c1157b19cf40e06944ec3252f0cd655ff08fe606108d2e7867a1cbbe013c7",
+      "transform": {
+        "positionMm": [
+          0,
+          -23.125,
+          20.875
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    }
+  ],
+  "assets": [],
+  "fits": [],
+  "updatedAt": "2026-10-13T05:26:21.597Z",
+  "parameters": {
+    "shell": {
+      "shell_width": 120,
+      "shell_depth": 58,
+      "shell_height": 85,
+      "shell_wall": 3,
+      "shell_corner": 10,
+      "shell_slot_width": 86,
+      "shell_slot_depth": 20,
+      "shell_slot_y": -4,
+      "shell_top_round": 16,
+      "shell_forward_extension": 8,
+      "shell_bottom_width_extra": 8,
+      "shell_back_cap_gap": 0.3,
+      "shell_uniform_scale": 0.625,
+      "shell_back_split_y": 26,
+      "shell_base_raise_mm": 4,
+      "shell_back_snap_x_mm": 32,
+      "shell_back_snap_z_low_mm": 18,
+      "shell_back_snap_z_high_mm": 36,
+      "shell_snap_clearance_mm": 0.2,
+      "shell_base_snap_x_mm": 22,
+      "shell_dial_axis_x_mm": -18.75,
+      "shell_dial_axis_global_z_mm": 20.875,
+      "shell_dial_axle_bore_mm": 3.4,
+      "shell_button_key_width_mm": 4.8,
+      "shell_button_key_height_mm": 5.1125,
+      "shell_button_key_corner_mm": 1.4,
+      "shell_button_key_clearance_mm": 0.1,
+      "shell_button_socket_depth_mm": 0.575,
+      "shell_button_center_z_mm": 18.375,
+      "shell_side_socket_radius_mm": 4.375,
+      "shell_side_socket_radial_clearance_mm": 0.1,
+      "shell_side_socket_depth_mm": 0.5,
+      "shell_side_socket_origin_x_mm": 40.83685350566157,
+      "shell_side_socket_origin_y_mm": -2.5,
+      "shell_side_socket_origin_z_mm": 13.183758504072657,
+      "shell_side_socket_angle_deg": -2.6942842898561006,
+      "shell_handle_slot_z_reference": 7.5,
+      "shell_handle_slot_height_reference": 42.8,
+      "shell_handle_slot_width_reference": 3.8
+    },
+    "base": {
+      "base_width": 120,
+      "base_depth": 58,
+      "base_thickness": 7,
+      "base_hook_slot_width": 12.6,
+      "base_hook_slot_depth": 5.6,
+      "base_hook_slot_y": 6.5,
+      "base_forward_extension": 8,
+      "base_width_extra": 8,
+      "base_uniform_scale": 0.625,
+      "base_raise_mm": 4,
+      "base_mechanism_relief_width_mm": 21,
+      "base_mechanism_relief_depth_mm": 8,
+      "base_mechanism_relief_floor_mm": 4.125,
+      "base_snap_x_mm": 22,
+      "base_snap_beam_thickness_mm": 1.2,
+      "base_snap_beam_length_mm": 9.6,
+      "base_snap_width_mm": 5,
+      "base_snap_hook_projection_mm": 0.7,
+      "base_release_slot_width_mm": 3,
+      "base_release_slot_depth_mm": 1.2,
+      "base_tray_wall_mm": 1.875,
+      "base_tray_corner_mm": 4.375,
+      "base_snap_root_embed_mm": 0.2,
+      "base_rear_tongue_x_mm": 29,
+      "base_rear_tongue_width_mm": 5,
+      "base_rear_tongue_thickness_mm": 1.2,
+      "base_rear_tongue_top_mm": 10.2,
+      "base_bottom_edge_round": 4.5,
+      "base_foot_socket_radius_mm": 3.4375,
+      "base_foot_socket_radial_clearance_mm": 0.1,
+      "base_foot_socket_depth_mm": 0.5,
+      "base_foot_socket_x_mm": 26.875,
+      "base_foot_socket_y_halfspan_mm": 14,
+      "base_body_height_reference": 85,
+      "base_body_center_z_mm": 30.9375,
+      "base_outer_corner_reference": 10,
+      "base_inner_floor_round_mm": 0.4,
+      "base_release_entry_y_mm": -19.5,
+      "base_release_tip_y_mm": -21.1
+    },
+    "panel": {
+      "panel_width": 99,
+      "panel_height": 33,
+      "panel_thickness": 1.8,
+      "panel_radius": 8,
+      "panel_uniform_scale": 0.625,
+      "panel_dial_axle_bore_mm": 3.4,
+      "panel_dial_axis_x_mm": -18.75,
+      "panel_dial_mark_sweep_deg": 270,
+      "panel_dial_mark_start_deg": 225,
+      "panel_dial_major_count": 6,
+      "panel_dial_minor_per_gap": 4,
+      "panel_dial_major_radius_mm": 7.85,
+      "panel_dial_number_radius_mm": 9.5,
+      "panel_dial_number_size_mm": 2.4,
+      "panel_dial_engrave_depth_mm": 0.65,
+      "panel_inlay_clearance_mm": 0.08,
+      "panel_inlay_retention_pocket_clearance_mm": 0.12,
+      "panel_inlay_retention_web_mm": 0.18,
+      "panel_inlay_retention_pocket_depth_mm": 0.24,
+      "panel_button_label_size_mm": 1.8,
+      "panel_button_label_depth_mm": 0.65,
+      "panel_button_label_z_mm": 3.525,
+      "panel_button_seat_depth_mm": 0.35,
+      "panel_button_fit_gap_mm": 0.1,
+      "panel_button_seat_width_mm": 6.875,
+      "panel_button_seat_height_mm": 7.1875,
+      "panel_button_seat_corner_mm": 2.34375,
+      "panel_button_key_width_mm": 4.8,
+      "panel_button_key_height_mm": 5.1125,
+      "panel_button_key_corner_mm": 1.4,
+      "panel_button_label_inlay_clearance_mm": 0.06
+    },
+    "toast": {
+      "toast_width": 80,
+      "toast_height": 77,
+      "toast_depth": 14,
+      "toast_arm": 30,
+      "toast_bracket_drop": 18,
+      "toast_slot_pin": 6.4,
+      "toast_slot_width": 14,
+      "toast_top_seam": 1.6,
+      "toast_crown_rise": 22,
+      "toast_shoulder_height": 47,
+      "toast_crown_dip": 0.4,
+      "toast_crown_dip_halfwidth": 2,
+      "toast_seam_round": 0.65,
+      "toast_seam_depth": 0.7,
+      "toast_crust_border": 2,
+      "toast_crown_fullness": 0.36,
+      "toast_side_arc_radius": 12.5,
+      "toast_side_arc_center_z": 59,
+      "toast_top_handle": 6,
+      "toast_reference_crown_rise": 19.7,
+      "toast_reference_neck_ratio": 0.91,
+      "toast_surface_groove_depth": 0.55,
+      "toast_surface_groove_halfwidth": 1.8,
+      "toast_surface_groove_front_y": -3,
+      "toast_crown_soft_fullness": 0.6,
+      "toast_vertical_side_bulge": 1,
+      "toast_crust_edge_round": 0.8,
+      "toast_surface_groove_round": 1,
+      "toast_side_curvature_bias": 0.8,
+      "toast_uniform_scale": 0.625
+    },
+    "crumb": {
+      "crumb_width": 76,
+      "crumb_height": 75,
+      "crumb_thickness": 14,
+      "crumb_crown_rise": 22,
+      "crumb_shoulder_height": 45,
+      "crumb_border": 2,
+      "crumb_crown_dip": 0.4,
+      "crumb_crown_dip_halfwidth": 2,
+      "crumb_outer_width": 80,
+      "crumb_outer_height": 77,
+      "crumb_outer_shoulder": 47,
+      "crumb_crust_clearance": 0.15,
+      "crumb_bracket_drop": 18,
+      "crumb_slot_pin": 6.4,
+      "crumb_slot_width": 14,
+      "crumb_bridge_z": 7,
+      "crumb_crown_fullness": 0.36,
+      "crumb_side_arc_radius": 12.5,
+      "crumb_side_arc_center_z": 59,
+      "crumb_top_handle": 6,
+      "crumb_reference_crown_rise": 19.7,
+      "crumb_reference_neck_ratio": 0.91,
+      "crumb_crown_soft_fullness": 0.6,
+      "crumb_vertical_side_bulge": 1,
+      "crumb_side_curvature_bias": 0.8,
+      "crumb_uniform_scale": 0.625
+    },
+    "eye_l": {
+      "eye_l_radius_x": 3.5,
+      "eye_l_radius_z": 3.5,
+      "eye_l_thickness": 0.5,
+      "eye_l_uniform_scale": 0.625
+    },
+    "eye_r": {
+      "eye_r_radius_x": 3.5,
+      "eye_r_radius_z": 3.5,
+      "eye_r_thickness": 0.5,
+      "eye_r_uniform_scale": 0.625
+    },
+    "cheek_l": {
+      "cheek_l_radius_x": 4.8,
+      "cheek_l_radius_z": 4.6,
+      "cheek_l_thickness": 0.5,
+      "cheek_l_uniform_scale": 0.625
+    },
+    "cheek_r": {
+      "cheek_r_radius_x": 4.8,
+      "cheek_r_radius_z": 4.6,
+      "cheek_r_thickness": 0.5,
+      "cheek_r_uniform_scale": 0.625
+    },
+    "smile": {
+      "smile_radius": 3.8,
+      "smile_stroke": 0.8,
+      "smile_depth": 0.5,
+      "smile_uniform_scale": 0.625
+    },
+    "dial": {
+      "dial_radius": 10.5,
+      "dial_depth": 4,
+      "dial_grip_width": 3.52,
+      "dial_grip_height": 16,
+      "dial_grip_angle": 35,
+      "dial_uniform_scale": 0.625,
+      "dial_grip_depth": 3.626666666666667,
+      "dial_axle_diameter_mm": 3,
+      "dial_axle_length_mm": 5.7625,
+      "dial_axle_center_y_mm": 3.93125,
+      "dial_grip_side_round_mm": 0.45
+    },
+    "button_1": {
+      "button_1_width": 11,
+      "button_1_height": 11.5,
+      "button_1_depth": 3,
+      "button_1_uniform_scale": 0.625,
+      "button_1_outline_round": 3.75,
+      "button_1_face_edge_round": 1.875,
+      "button_1_plug_width_mm": 4.8,
+      "button_1_plug_height_mm": 5.1125,
+      "button_1_plug_corner_mm": 1.4,
+      "button_1_plug_depth_mm": 1.25
+    },
+    "button_2": {
+      "button_2_width": 11,
+      "button_2_height": 11.5,
+      "button_2_depth": 3,
+      "button_2_uniform_scale": 0.625,
+      "button_2_outline_round": 3.75,
+      "button_2_face_edge_round": 1.875,
+      "button_2_plug_width_mm": 4.8,
+      "button_2_plug_height_mm": 5.1125,
+      "button_2_plug_corner_mm": 1.4,
+      "button_2_plug_depth_mm": 1.25
+    },
+    "button_3": {
+      "button_3_width": 11,
+      "button_3_height": 11.5,
+      "button_3_depth": 3,
+      "button_3_uniform_scale": 0.625,
+      "button_3_outline_round": 3.75,
+      "button_3_face_edge_round": 1.875,
+      "button_3_plug_width_mm": 4.8,
+      "button_3_plug_height_mm": 5.1125,
+      "button_3_plug_corner_mm": 1.4,
+      "button_3_plug_depth_mm": 1.25
+    },
+    "side_dial": {
+      "side_dial_radius": 7,
+      "side_dial_depth": 4,
+      "side_dial_uniform_scale": 0.625,
+      "side_dial_front_round": 1.2
+    },
+    "side_handle": {
+      "side_handle_width": 11,
+      "side_handle_depth": 13,
+      "side_handle_thickness": 5,
+      "side_handle_uniform_scale": 0.625,
+      "side_handle_key_length_mm": 5.75,
+      "side_handle_key_width_mm": 2,
+      "side_handle_key_height_mm": 1.875,
+      "side_handle_key_outer_x_mm": -2.8
+    },
+    "slot_trim": {
+      "slot_trim_width": 92,
+      "slot_trim_depth": 26,
+      "slot_trim_thickness": 1.2,
+      "slot_trim_band": 3,
+      "slot_trim_edge_round": 0.3,
+      "slot_trim_uniform_scale": 0.625
+    },
+    "foot_fl": {
+      "foot_fl_radius": 5.5,
+      "foot_fl_height": 4,
+      "foot_fl_uniform_scale": 0.625,
+      "foot_fl_bottom_round": 1.7
+    },
+    "foot_fr": {
+      "foot_fr_radius": 5.5,
+      "foot_fr_height": 4,
+      "foot_fr_uniform_scale": 0.625,
+      "foot_fr_bottom_round": 1.7
+    },
+    "foot_bl": {
+      "foot_bl_radius": 5.5,
+      "foot_bl_height": 4,
+      "foot_bl_uniform_scale": 0.625,
+      "foot_bl_bottom_round": 1.7
+    },
+    "foot_br": {
+      "foot_br_radius": 5.5,
+      "foot_br_height": 4,
+      "foot_br_uniform_scale": 0.625,
+      "foot_br_bottom_round": 1.7
+    },
+    "back": {
+      "back_width": 120,
+      "back_depth": 58,
+      "back_height": 85,
+      "back_thickness": 2.7,
+      "back_shaft_diameter": 6,
+      "back_guide_clearance": 0.5,
+      "back_guide_depth": 7.3,
+      "back_top_round": 16,
+      "back_uniform_scale": 0.625,
+      "back_forward_extension": 8,
+      "back_bottom_width_extra": 8,
+      "back_corner": 10,
+      "back_cap_gap": 0.3,
+      "back_split_y": 26,
+      "back_base_raise_mm": 4,
+      "back_stop_bridge_width_mm": 16,
+      "back_snap_x_mm": 32,
+      "back_snap_z_low_mm": 18,
+      "back_snap_z_high_mm": 36,
+      "back_snap_beam_thickness_mm": 1.2,
+      "back_snap_beam_length_mm": 8.2,
+      "back_snap_width_mm": 5,
+      "back_snap_hook_projection_mm": 0.7,
+      "back_base_tongue_x_mm": 29,
+      "back_base_tongue_width_mm": 5,
+      "back_base_tongue_clearance_mm": 0.2,
+      "back_base_tongue_top_mm": 10.2,
+      "back_base_shoulder_thickness_mm": 1.2,
+      "back_base_inner_rear_mm": 16.25,
+      "back_base_wall_clearance_mm": 0.2,
+      "back_base_outer_top_mm": 8.375,
+      "back_upper_stop_opening_halfwidth": 6,
+      "back_upper_stop_height": 6
+    },
+    "lever": {
+      "lever_arm": 30,
+      "lever_thickness": 5,
+      "lever_beam_height": 8,
+      "lever_bore_diameter": 6.4,
+      "lever_pin_diameter": 6,
+      "lever_angle_deg": 34.51810784,
+      "lever_uniform_scale": 0.625
+    },
+    "hook": {
+      "hook_width": 12,
+      "hook_stem_thickness": 5,
+      "hook_length": 87,
+      "hook_slot_width": 14,
+      "hook_slot_height": 6.4,
+      "hook_edge_round": 2.4,
+      "hook_uniform_scale": 0.625,
+      "hook_side_link_root_x_mm": 21,
+      "hook_side_link_end_x_mm": 34.5,
+      "hook_side_link_y_mm": 4.5,
+      "hook_side_link_width_mm": 2.5,
+      "hook_side_link_thickness_mm": 3,
+      "hook_side_handle_y_mm": -2.5,
+      "hook_side_handle_z_offset_mm": 13.75,
+      "hook_side_socket_outer_mm": 4.4,
+      "hook_side_socket_key_y_mm": 2,
+      "hook_side_socket_key_z_mm": 1.875,
+      "hook_side_socket_key_gap_mm": 0.1,
+      "hook_side_socket_depth_mm": 1.6
+    },
+    "collar": {
+      "collar_outer_diameter": 9,
+      "collar_inner_diameter": 6.2,
+      "collar_thickness": 2,
+      "collar_uniform_scale": 0.625
+    },
+    "dial_rim": {
+      "dial_rim_radius": 11.1,
+      "dial_rim_thickness": 0.5,
+      "dial_rim_uniform_scale": 0.625,
+      "dial_rim_axle_bore_mm": 3.4
+    },
+    "dial_cap": {
+      "dial_cap_outer_diameter_mm": 6,
+      "dial_cap_thickness_mm": 1.6,
+      "dial_cap_bore_mm": 3.2,
+      "dial_cap_socket_depth_mm": 1.2
+    },
+    "scale_inlays": {
+      "scale_inlays_axis_x_mm": -18.75,
+      "scale_inlays_start_deg": 225,
+      "scale_inlays_sweep_deg": 270,
+      "scale_inlays_major_count": 6,
+      "scale_inlays_minor_per_interval": 4,
+      "scale_inlays_major_radius_mm": 7.85,
+      "scale_inlays_number_radius_mm": 9.5,
+      "scale_inlays_font_size_mm": 2.4,
+      "scale_inlays_thickness_mm": 0.8,
+      "scale_inlays_back_y_mm": -0.575,
+      "scale_inlays_retention_offset_mm": 0.1,
+      "scale_inlays_retention_height_mm": 0.2
+    },
+    "label_inlays": {
+      "label_inlays_font_size_mm": 1.8,
+      "label_inlays_thickness_mm": 0.8,
+      "label_inlays_back_offset_mm": 0.575,
+      "label_inlays_center_z_mm": 3.525,
+      "label_inlays_start_x_mm": 0.625,
+      "label_inlays_word_spacing_mm": 10
+    }
+  }
+}

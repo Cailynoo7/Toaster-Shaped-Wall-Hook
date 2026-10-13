@@ -1,0 +1,5 @@
+# Keep exported models and reference images byte-identical to their records.
+*.step binary
+*.png binary
+# CSV uses standard CRLF line endings.
+*.csv whitespace=cr-at-eol

@@ -1,0 +1,7 @@
+r=param("side_dial_radius",7)
+d=param("side_dial_depth",4)
+s=Rot(0,90,0)*Cylinder(r,d)
+s=fillet(s.faces().sort_by(Axis.X)[-1].edges(),param("side_dial_front_round",1.2))
+s.color=srgb("#dca05a")
+s=scale(s,by=param("side_dial_uniform_scale",0.625))
+publish("side_dial",s,"v33 平背侧面圆钮",material="pla")

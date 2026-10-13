@@ -1,0 +1,76 @@
+{
+  "version": 2,
+  "artifact_level": "assembly",
+  "deliverable_intent": "fit_check",
+  "summary": "v42 卡通吐司机挂钩，钩体圆角由R0.75增至R1.5mm。",
+  "required_interfaces": [
+    {
+      "id": "lever_lift",
+      "kind": "internal_fit",
+      "description": "挂钩下移21.25mm，通过等比缩小摇杆横销槽驱动吐司上移21.25mm，导轨防转及限位",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "wall_back",
+      "kind": "mounting",
+      "description": "平背承重粘接面，实际胶粘强度待验证。",
+      "source": "generated_support_geometry",
+      "required": true
+    },
+    {
+      "id": "side_handle_hook_link",
+      "kind": "internal_fit",
+      "description": "侧面拨柄随挂钩同步上下移动21.25mm，连接臂避让导轨及杠杆，侧槽供竖直运动",
+      "source": "user_requested",
+      "required": true
+    }
+  ],
+  "external_references": [
+    {
+      "id": "user_image",
+      "source": "user_requested",
+      "description": "唯一外观依据：空闲和承重状态效果图，无尺寸。",
+      "path": "product/references/uploads/20261011T101006349Z-1-1.png"
+    },
+    {
+      "id": "toast_outline_sampling",
+      "source": "existing_workspace",
+      "description": "右侧面包前脸像素边缘采样与拟合说明，记录透视与高光限制",
+      "path": "product/references/toast-outline-v14.json"
+    }
+  ],
+  "assembly_story": {
+    "installation": "先在背板装摇杆和双滑块，机身内装旋钮止退帽，再合上背板；底板后侧插舌插入承口后按下前侧两扣；平背粘墙。 在合背板后将侧柄榫从侧槽插入挂钩连接臂盲孔，微量适配PLA/PETG胶固定，仅胶侧柄榫与连接臂、不能胶到机身。",
+    "maintenance": "从底面两处内收小孔沿斜通道送入薄片，向内压卡舌，拉下前侧后退出后插舌；打开底盘后释放背板四扣。",
+    "user_access": [
+      "底部挂钩",
+      "顶部吐司",
+      "可拆背板"
+    ]
+  },
+  "cad": {
+    "requirement": "required",
+    "designs": [
+      {
+        "role": "mechanical_hook",
+        "design_id": "toaster_hook_v1",
+        "description": "v42 外露挂钩长杆、弯曲段和钩尖圆角半径为当前两倍R1.5mm，保留既有侧柄联动臂和内部销槽",
+        "delivery_target": "fit_check",
+        "required_formats": [
+          "step"
+        ],
+        "interface_ids": [
+          "lever_lift",
+          "wall_back",
+          "side_handle_hook_link"
+        ],
+        "reference_ids": [
+          "user_image",
+          "toast_outline_sampling"
+        ]
+      }
+    ]
+  },
+  "open_questions": []
+}

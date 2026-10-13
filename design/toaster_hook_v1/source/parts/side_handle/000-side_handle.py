@@ -1,0 +1,16 @@
+w=param("side_handle_width",11)
+d=param("side_handle_depth",13)
+t=param("side_handle_thickness",5)
+s=Box(w,d,t)
+s=fillet(s.edges(),2.2)
+
+s.color=srgb("#e9b371")
+s=scale(s,by=param("side_handle_uniform_scale",0.625))
+key_len=param("side_handle_key_length_mm",5.75)
+key_y=param("side_handle_key_width_mm",2)
+key_z=param("side_handle_key_height_mm",1.875)
+key_outer=param("side_handle_key_outer_x_mm",-2.8)
+s=s+Pos(key_outer-key_len/2,0,0)*Box(key_len,key_y,key_z)
+s.color=srgb("#e9b371")
+publish("side_handle",s,"v38 上下联动侧拨柄",material="pla")
+assert len(s.solids())==1

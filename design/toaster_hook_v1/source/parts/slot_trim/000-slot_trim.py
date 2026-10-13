@@ -1,0 +1,13 @@
+w=param("slot_trim_width",92)
+d=param("slot_trim_depth",26)
+t=param("slot_trim_thickness",1.2)
+band=param("slot_trim_band",3)
+edge=param("slot_trim_edge_round",0.3)
+with BuildSketch(Plane.XY) as sk:
+    RectangleRounded(w,d,4+band)
+    RectangleRounded(w-2*band,d-2*band,4,mode=Mode.SUBTRACT)
+s=extrude(sk.sketch,amount=t)
+s=fillet(s.edges().filter_by(Axis.Z,reverse=True),edge)
+s.color=srgb("#a7a6a0")
+s=scale(s,by=param("slot_trim_uniform_scale",0.625))
+publish("slot_trim",s,"v41 双倍边带金属色槽沿",material="pla")

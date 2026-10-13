@@ -1,0 +1,7 @@
+od=param("collar_outer_diameter",9)
+id=param("collar_inner_diameter",6.2)
+t=param("collar_thickness",2)
+s=Rot(90,0,0)*(Cylinder(od/2,t)-Cylinder(id/2,t+2))
+s.color=srgb("#e9b371")
+s=scale(s,by=param("collar_uniform_scale",0.625))
+publish("collar",s,"v24 胶固止退轴帽",material="petg")
