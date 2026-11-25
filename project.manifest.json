@@ -1,5 +1,13 @@
 {
   "formatVersion": 4,
   "name": "吐司面包机外形挂钩",
+  "title": "Toaster-Shaped Wall Hook",
+  "summary": "A toaster-shaped wall hook that adds a playful kitchen touch while holding keys, towels, or small everyday items.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "QY G"
+    }
+  ],
   "artifacts": "rebuild"
 }

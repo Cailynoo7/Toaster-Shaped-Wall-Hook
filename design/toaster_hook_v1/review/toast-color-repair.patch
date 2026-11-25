@@ -1,0 +1,72 @@
+--- a/design/toaster_hook_v1/source/parts/toast/000-toast.py
++++ b/design/toaster_hook_v1/source/parts/toast/000-toast.py
+@@ -115,7 +115,7 @@
+     outer=outer+loft(sections)
+ bread=outer-extrude(inner,amount=d/2+1,both=True)
+ print("Groove lip circular section radius mm",groove_round)
++bread=scale(bread,by=param("toast_uniform_scale",0.625))
+ bread.color=srgb("#d78f3a")
+-bread=scale(bread,by=param("toast_uniform_scale",0.625))
+ publish("toast",bread,"v24 周圈烘焙面包皮",material="pla")
+ assert len(bread.solids())==1
+--- a/design/toaster_hook_v1/source/parts/crumb/000-crumb.py
++++ b/design/toaster_hook_v1/source/parts/crumb/000-crumb.py
+@@ -64,7 +64,7 @@
+     with Locations((-27,-drop)):
+         SlotOverall(slotw,pin)
+ cream=cream-extrude(sl.sketch,amount=6,both=True)
++cream=scale(cream,by=param("crumb_uniform_scale",0.625))
+ cream.color=srgb("#fff9e3")
+-cream=scale(cream,by=param("crumb_uniform_scale",0.625))
+ publish("crumb",cream,"v24 米色面包主体与滑块",material="pla")
+ assert len(cream.solids())==1
+--- a/design/toaster_hook_v1/source/parts/eye_l/000-eye_l.py
++++ b/design/toaster_hook_v1/source/parts/eye_l/000-eye_l.py
+@@ -4,6 +4,6 @@
+ with BuildSketch(Plane.XZ) as sk:
+     Ellipse(rx,rz)
+ s=extrude(sk.sketch,amount=t)
++s=scale(s,by=param("eye_l_uniform_scale",0.625))
+ s.color=srgb("#45382c")
+-s=scale(s,by=param("eye_l_uniform_scale",0.625))
+ publish("eye_l",s,"v24 吐司眼睛",material="pla")
+--- a/design/toaster_hook_v1/source/parts/eye_r/000-eye_r.py
++++ b/design/toaster_hook_v1/source/parts/eye_r/000-eye_r.py
+@@ -4,6 +4,6 @@
+ with BuildSketch(Plane.XZ) as sk:
+     Ellipse(rx,rz)
+ s=extrude(sk.sketch,amount=t)
++s=scale(s,by=param("eye_r_uniform_scale",0.625))
+ s.color=srgb("#45382c")
+-s=scale(s,by=param("eye_r_uniform_scale",0.625))
+ publish("eye_r",s,"v24 吐司眼睛",material="pla")
+--- a/design/toaster_hook_v1/source/parts/cheek_l/000-cheek_l.py
++++ b/design/toaster_hook_v1/source/parts/cheek_l/000-cheek_l.py
+@@ -4,6 +4,6 @@
+ with BuildSketch(Plane.XZ) as sk:
+     Ellipse(rx,rz)
+ s=extrude(sk.sketch,amount=t)
++s=scale(s,by=param("cheek_l_uniform_scale",0.625))
+ s.color=srgb("#f7cda9")
+-s=scale(s,by=param("cheek_l_uniform_scale",0.625))
+ publish("cheek_l",s,"v24 吐司腮红",material="pla")
+--- a/design/toaster_hook_v1/source/parts/cheek_r/000-cheek_r.py
++++ b/design/toaster_hook_v1/source/parts/cheek_r/000-cheek_r.py
+@@ -4,6 +4,6 @@
+ with BuildSketch(Plane.XZ) as sk:
+     Ellipse(rx,rz)
+ s=extrude(sk.sketch,amount=t)
++s=scale(s,by=param("cheek_r_uniform_scale",0.625))
+ s.color=srgb("#f7cda9")
+-s=scale(s,by=param("cheek_r_uniform_scale",0.625))
+ publish("cheek_r",s,"v24 吐司腮红",material="pla")
+--- a/design/toaster_hook_v1/source/parts/smile/000-smile.py
++++ b/design/toaster_hook_v1/source/parts/smile/000-smile.py
+@@ -6,6 +6,6 @@
+     Circle(r-t,mode=Mode.SUBTRACT)
+ s=extrude(sk.sketch,amount=d)
+ s=s & Pos(0,-d/2,-r/2)*Box(2*r+2,d+2,r)
++s=scale(s,by=param("smile_uniform_scale",0.625))
+ s.color=srgb("#45382c")
+-s=scale(s,by=param("smile_uniform_scale",0.625))
+ publish("smile",s,"v24 吐司微笑",material="pla")
