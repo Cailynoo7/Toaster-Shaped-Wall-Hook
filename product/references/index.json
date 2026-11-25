@@ -2,6 +2,20 @@
   "schemaVersion": 1,
   "entries": [
     {
+      "file": "generated/exec-1cae3279-982f-4282-ba68-be2d220aa288.png",
+      "sha256": "2e00b51bbc8bffda18e1e874a8ec3d2d77390489d7826ab774a03742c75e0af7",
+      "bytes": 1562226,
+      "addedAt": "2026-11-25T07:05:15.031Z",
+      "share": false
+    },
+    {
+      "file": "generated/exec-53e9234f-3afb-4c95-b10f-2fb507a2b98c.png",
+      "sha256": "2147b6b46a138aef15bcfdf63e85a4f53a9d3a46fa0dab32a042b093755f1ab8",
+      "bytes": 1146458,
+      "addedAt": "2026-11-25T07:10:41.179Z",
+      "share": false
+    },
+    {
       "file": "toast-outline-v14.json",
       "sha256": "d3e9324225b10ecc79e1c84d45f492cafb13ca46f4c9ead723561080e11a3b3a",
       "bytes": 2132,
